@@ -1,19 +1,33 @@
-<div class="container">
-    <div class="navbar">
-        <ul>
-            <li class="link-container"><a href="#"></a>Home</li>
-            <li class="link-container"><a href="#"></a>Projetos</li>
-            <li class="link-container"><a href="#"></a>Oficina</li>
-            <li class="link-container"><a href="#"></a>Concluidos</li>
-            <li class="link-container"><a href="#"></a>Sobre Mim</li>
-        </ul>
+<header class="container">
+        <div class="menu-container">
+            <ul class="navbar">
+                <img class="imgProfile" [src]="srcProfile" alt="Foto de perfil" [title]="photoProfile">
+                <li class="link-container"><a href="#">Home</a></li>
+                <li class="link-container"><a href="#">Projetos</a></li>
+                <li class="link-container"><a href="#">Oficina</a></li>
+                <li class="link-container"><a href="#">Concluidos</a></li>
+                <li class="link-container"><a href="#">Sobre Mim</a></li>
+                <div class="accordion-header">
+                    <ul class="accordion-container">
+                        <li class="line1 line"></li>
+                        <li class="line2 line"></li>
+                        <li class="line3 line"></li>
+                    </ul>
+                </div>  
+            </ul>
+        </div>
+        <img class="imgFundo"  [src]="src">
+</header>
+
+<nav class="nav-container">
+    <div class="introduction-container">
+        <h2 class="title-two">Bem-vindo à minha garagem digital! 🚗💻</h2>
+        <p class="text-introduction">
+            Aqui é onde eu construo, ajusto e aprimoro meus projetos, assim como um mecânico faz com seus carros. Meu nome é Kaio Quaresma de Souza, e sou um desenvolvedor web que gosta de transformar ideias em sistemas funcionais e bem-feitos.
+        </p>
+        <p class="text-introduction text-two">
+            Na minha garagem, você vai encontrar projetos que misturam tecnologia, criatividade e um toque de personalidade. Curte um bom código? Então dá uma olhada nos meus trabalhos e veja o que eu já criei!
+        </p>
+        <button class="btn">Acessar meu portfolio</button>
     </div>
-    <div class="accordion-header">
-        <ul>
-            <li class="line1 line"></li>
-            <li class="line2 line"></li>
-            <li class="line3 line"></li>
-        </ul>
-    </div>  
-    <img class="imgFundo"  [src]="src">
-</div>
+</nav>
