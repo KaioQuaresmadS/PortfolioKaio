@@ -42,9 +42,9 @@
 }
 
 .imgProfile {
+    border-radius: 50%;
     width: 100px;
     height: 100px;
-    padding-right: 100px;
 }
 
 /* MENU HAMBURGER */
@@ -103,7 +103,7 @@
     color: var(--text-color);
 }
 .btn:hover{
-    box-shadow: insert  -4px 4px 0 var(--shadow);
+    box-shadow: inset  -4px 4px 0 var(--shadow);
     font-size: 15px;
 
 }
